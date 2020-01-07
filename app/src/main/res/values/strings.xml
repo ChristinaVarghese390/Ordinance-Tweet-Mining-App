@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OrdinanceTweetMining</string>
+
+    <string-array name="citynames">
+
+        <item>  Select City  </item>
+        <item> New York City  </item>
+
+    </string-array>
+
+</resources>

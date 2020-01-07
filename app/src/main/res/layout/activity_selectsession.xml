@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    android:layout_marginTop="10dp"
+    android:padding="30dp"
+
+    tools:context=".selection">
+
+
+    <Spinner
+        android:id="@+id/selectcityspinner"
+        android:queryHint="Search Region"
+        android:layout_width="match_parent"
+        android:background="@drawable/buttonborder"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"></Spinner>
+
+    <Button
+        android:id="@+id/buttongeneralquestions"
+        android:background="@drawable/buttonborder"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="General Questions" />
+
+
+    <Button
+        android:id="@+id/session1"
+        android:background="@drawable/buttonborder"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Session1 (2006-2009)" />
+
+    <Button
+        android:id="@+id/session2"
+        android:background="@drawable/buttonborder"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Session2 (2010-2013)" />
+
+    <Button
+        android:id="@+id/bothsessions"
+        android:background="@drawable/buttonborder"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Both Sessions" />
+
+
+
+</LinearLayout>

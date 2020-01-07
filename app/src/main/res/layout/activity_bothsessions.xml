@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bothsessions">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/pass" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="1.Which committee showed the greatest rising trend (growth) ordinance passing from session 1 to session 2?"
+
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:text=" Answer:Governance with an increase of 6.0%"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/session2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/smartgovernance" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="2.Which committee showed the greatest falling trend (decline) ordinance passing from session 1 to session 2?"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:text=" Answer: Living showed a decline by 9.9%"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/smartliving" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="3.What was the average time span from ordinance start to end date across both sessions?"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:text=" Answers: 213 days"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="4.Which SCC got the greatest attention overall?"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:text=" Answer: Smart Living had 169 ordinances"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/smartcitynight" />
+
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="5.Which SCC got the least attention overall?"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:text=" Answer: Smart People had 21 ordinances only"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView006"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="6.What is the overall public satisfaction on ordinances?"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/piechart" />
+
+
+
+        <TextView
+            android:id="@+id/textView007"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="7.What is the relation between ordinances and SCCs across both sessions 1 and 2"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView0007"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:text=" Answer: •	Governance: There was an increase of 40 ordinances passed in session 2 compared to session 1
+•	Living: There were 13 less ordinances passed in session 2
+•	People: There 15 more ordinances passed in session 2
+•	Economy: There were 10 less ordinances passed in session 2
+•	Mobility: There were 26 more ordinances passed in session 2
+•	Environment: There were 13 more ordinances passed in session 2
+"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/changeinordinances" />
+
+        <TextView
+            android:id="@+id/textView008"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="8.What is the relation between tweets and SCCs across both sessions 1 and 2"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/publicsentiment" />
+
+
+
+        <TextView
+            android:id="@+id/textView0091"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="9.Is NYC heading towards a smart city?"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView0008"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:text=" Answer: Considering the analysis from the data gathered, urban legislators in NYC could continue to focus more on smart governance ordinances aiming to make NYC head towards becoming a leading smart city "
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/smartcityny" />
+
+
+    </LinearLayout>
+
+
+</ScrollView >

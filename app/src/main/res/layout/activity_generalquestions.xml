@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".generalquestions">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:src="@drawable/faq" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="1.Can public opinion of tweets influence the legislation of ordinances in a smart city?"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:text=" Answer:At the moment, No it doesn’t, but it does however, reflect the sentiments of what the public thinks about the ordinances being passed. "
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="2.What comprises of the Smart City characteristics?"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:text=" Answer: Smart economy, smart environment, smart governance, smart mobility, smarty people, smart living."
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:src="@drawable/bio" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="3. What is the difference between a smart city and a knowledge city?"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:text=" Answer: A smart city can build on previous achievements of an “organic growth”, while a knowledge city is usually a result of a governmental project, not necessarily being a part of an existing city, but also not too far from one."
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="4.Is a public hearing required for pasing of all ordinances?"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:text=" Answer: There are two types of hearings, those that are discretionary and are held because the public body chooses to do so and those that are mandatory and are held because they are required by a specific statute, ordinance, or charter provision.
+
+"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView00100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="5.Does the public agree that the recent urban policies in the city are making it a smart city?
+
+"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView1001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:text=" Answer: Yes, Although there are still many factors that need to be considered to making it a better smart city"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView11000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="6.Do committees focus on specific smart city characteristics while enacting ordinances?"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:text=" Answer: Yes, for example, committee of finance focus on economy."
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView >

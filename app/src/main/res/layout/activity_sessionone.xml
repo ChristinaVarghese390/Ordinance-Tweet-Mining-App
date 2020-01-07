@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sessionone">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:src="@drawable/law" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="1.Which ordinance department passed the greatest number of ordinances in recent sessions?"
+
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:text=" Answer:Committee of Finance in session 2006-2009"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="2.	Which ordinance department passed the least number of ordinances in recent sessions?"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:text=" Answer: Committee on Civil Rights"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/civilrights" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="3. Which smart city characteristics are receiving greater attention in recent years?"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:text=" Answer: The smart city characteristic that received the greatest attention for the session 2006 – 2009 was smart living (91 ordinances). "
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/smartliving" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="4. How many tweets have been posted related to ordinances of smart cities in the recent years?"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:text=" Answer:5000 tweets have been mined in relation to Smart Cities"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="5.What were the three top committees from the sessions 2006- 2009?"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:text=" Answer: The top three committees of session 2006 – 2009 were found to be the committee on Finance, Committee on Housing and Buildings and Committee on Environmental Protection. The percentages being 17.07%, 16.72%, 9.41% respectively. "
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/top3committees" />
+
+
+        <TextView
+            android:id="@+id/textView008"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="6.How many ordinances that are being passed address the smart economy characteristics of smart cities?"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView0008"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:text=" Answer: There were 287 ordinances passed in session 1"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView009"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="7.What smart city characteristic received the least attention?"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView0009"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:text=" Answer: The smart city characteristic that received the lease attention for the session 2006 – 2009 was smart people. "
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView0010"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="8.What smart city characteristic received the second most greatest attention in session 1?"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView00010"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:text=" Answer: Smart Governance received the greatest attention"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/smartcityone" />
+
+        <TextView
+            android:id="@+id/textView0011"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="9.Is smart governance an important characteristic? If so, how many ordinances have been passed for it?"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <TextView
+            android:id="@+id/textView01011"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:text=" Answer: 61 ordinances have been passed for smart governance in session 1"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/smartgovernance" />
+
+
+    </LinearLayout>
+
+
+</ScrollView >
